@@ -1,0 +1,56 @@
+import url('https://fonts.googleapis.com/css2?family=Popins;wght@200;400&display=swap');
+
+* { 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+     font-family: Arial, sans-serif;
+     margin: 20px;
+	 background-color: #C3B1E1;
+	 text-align: Justify;
+}
+
+img{
+	display: flex;
+	background-image: 100%;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height:100%;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 85px;
+  transform: translateY(-50%);
+  color: #311432;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Times new roman, sans-serif;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+}
+
+button {
+  position: absolute;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Times New Roman', sans-serif;
+  color: #CBC3E3;
+  background-color: #311432;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
